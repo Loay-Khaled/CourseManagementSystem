@@ -1,0 +1,67 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(100deg, #0f3d58, #16697a);
+  color: #ffffff;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0 8px 18px rgba(15, 61, 88, 0.25);
+}
+
+.brandRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.roleBadge {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.nav a,
+.logoutButton {
+  padding: 0.45rem 0.7rem;
+  border-radius: 0.45rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav a:hover,
+.logoutButton:hover,
+.active {
+  background: rgba(255, 255, 255, 0.26);
+}
+
+@media (max-width: 700px) {
+  .brandRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,74 @@
+.page {
+  padding: 1.25rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+  color: #19374f;
+}
+
+.header p {
+  margin-top: 0.35rem;
+  color: #36586e;
+}
+
+.grid {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d8e4ec;
+  border-radius: 0.85rem;
+  padding: 1rem;
+  box-shadow: 0 8px 18px rgba(21, 44, 60, 0.08);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #234960;
+}
+
+.card p {
+  margin: 0.45rem 0 0;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #16697a;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #d8e4ec;
+  border-radius: 0.85rem;
+  padding: 1rem;
+}
+
+.quickActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.quickActions a {
+  border: 1px solid #2b7c8b;
+  color: #2b7c8b;
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.7rem;
+}
+
+.quickActions a:hover {
+  background: #2b7c8b;
+  color: #ffffff;
+}
+
+.recentList {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0;
+  padding-left: 1.15rem;
+}

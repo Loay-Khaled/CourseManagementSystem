@@ -1,0 +1,116 @@
+.page {
+  padding: 1.25rem;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #d8e4ec;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  box-shadow: 0 8px 18px rgba(22, 43, 56, 0.08);
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.8rem;
+}
+
+.panelHeader h1 {
+  margin: 0;
+  color: #204661;
+}
+
+.panelHeader button,
+.form button,
+.linkButton,
+.actions button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  cursor: pointer;
+  background: #1f7a8c;
+  color: #ffffff;
+}
+
+.form {
+  display: grid;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.form input,
+.form textarea,
+.form select {
+  width: 100%;
+  border: 1px solid #c6d7e3;
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.7rem;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.65rem;
+  border-bottom: 1px solid #ecf1f5;
+  vertical-align: top;
+}
+
+th {
+  color: #224b66;
+  font-size: 0.92rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.danger {
+  background: #b33a3a !important;
+}
+
+.error {
+  color: #a73333;
+  font-weight: 500;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.list li {
+  background: #f4f9fc;
+  border: 1px solid #d8e4ec;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.7rem;
+}
+
+.list li span {
+  display: block;
+  font-size: 0.9rem;
+  color: #3f5d72;
+}
+
+@media (max-width: 720px) {
+  .panelHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
